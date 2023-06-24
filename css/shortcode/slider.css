@@ -1,0 +1,147 @@
+/* -----------------------------------
+Template Name: Universe - Education Html Template 
+
+NOTE: This is Slider style file. All Slider related style included in this file.
+
+--------------------------------------*/
+
+.slider-area .slider-all > img {
+    width: 100%;
+}
+.slider-all {
+    position: relative;
+}
+.slider-text-wrapper {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.slider-text {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown;
+}
+.slick-active .slider-text {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.slider-all {
+    position: relative
+}
+.slider-all::before {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    content: "";
+}
+.slider-text h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+}
+.slider-text > p {
+  color: #fff;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 18px;
+  margin: 14px 0 39px;
+}
+.slider-text > h3 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.slider-text a.button {
+  border: 0 none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  border: 1px solid #fff;
+    background: transparent;
+}
+
+.slider-text a.button.extra-small span {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 30px;
+}
+.slider-text a.button::after {
+  background: #0151b0 none repeat scroll 0 0;
+}
+.slider-text a.button:hover{
+  border: 1px solid #0151b0;
+}
+
+
+
+
+
+.slider-area {
+    left: 0;
+    margin: auto;
+    right: 0;
+    width: 100%;
+}
+.slider-area .slick-dots {
+  bottom: 100px;
+}
+
+.slider-area .slick-dots li button::before {
+  border-bottom: 4px solid #fff;
+}
+.slider-area .slick-dots li button::after {
+  border-top: 4px solid #fff;
+}
+.slider-area .slick-dots li button {
+  background: #fff none repeat scroll 0 0;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------
+
+text-animation-3
+
+--------------------------------------*/
+
+h3.tlt5 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h3.tlt7 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.text-animation-1 .slider-text h1 {
+    margin-bottom: 18px;
+}
